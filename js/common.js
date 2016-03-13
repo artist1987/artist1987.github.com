@@ -1,23 +1,8 @@
 $(document).ready(function() {
-	$(".auth_buttons").click(function(){
+	$("").click(function(){
 		$(this).next().slideToggle();
 	});
-	$(".main_mnu_button").click(function(){
-		$(".main_mnu ul").slideToggle();		
-	});
-	$('.mfp-gallery').magnificPopup({
-		type: 'image',
-		closeOnContentClick: true,
-		image: {
-			verticalFit: false
-		},
-		gallery: {
-			enabled: true
-		},
-
-	});
 	
-
 
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
@@ -57,13 +42,17 @@ $(document).ready(function() {
 	//Каруселька
 	//Документация: http://owlgraphic.com/owlcarousel/
 	var owl = $(".carousel");
-	owl.owlCarousel({	
-       items : 2, 
-       itemsDesktop: false,
-       itemsDesktopSmall: false  
+	owl.owlCarousel({
+		items : 1,		
+		itemsDesktop: false,
+        itemsDesktopSmall: false,
+        itemsTablet: false,
+        itemsMobile : false,
+          
+		
 
 	});
-	owl.on(".owl-wrapper", function (e) {
+	owl.on("mousewheel", ".owl-wrapper", function (e) {
 		if (e.deltaY > 0) {
 			owl.trigger("owl.prev");
 		} else {
