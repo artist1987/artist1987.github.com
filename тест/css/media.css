@@ -2,6 +2,10 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+		.image_container img {
+		width: 100%;
+		height: auto ;
+	}
 
 }
 
@@ -10,10 +14,7 @@
 	.left_container {
 		overflow: auto;
 	}
-	.image_container img {
-		width: 100%;
-		height: auto ;
-	}
+
 	.bottom_container {
     height: 360px;    
     top: -3%;
