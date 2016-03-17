@@ -2,10 +2,15 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-		.image_container img {
-		width: 100%;
-		height: auto ;
-	}
+    .image_container img {
+        width: 100%;
+        height: auto ;
+    }
+    .text_slider {
+    
+    font-size: 43px;    
+    top: 63px;
+}    
 
 }
 
@@ -14,7 +19,7 @@
 	.left_container {
 		overflow: auto;
 	}
-
+	
 	.bottom_container {
     height: 360px;    
     top: -3%;
@@ -27,6 +32,11 @@
 }
 .text_slider {    
     font-size: 28px;
+    
+}
+option {
+    
+    font-size: 27px;
     
 }
 
@@ -79,7 +89,12 @@ h3 {
 		
 		height: 250px; ;
 	}
-
+    .slider_buttons {
+    
+    height: 30px;    
+    width: 60px;
+}
+    
 }
 
 /* Extra Small Devices, Phones */
@@ -100,11 +115,7 @@ h3 {
     font-size: 20px;
     
 }
-.slider_buttons {
-    
-    height: 30px;    
-    width: 60px;
-}
+
 .owl-pagination {    
     top: 85%;
     
