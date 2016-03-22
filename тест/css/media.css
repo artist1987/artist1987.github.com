@@ -1,0 +1,175 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .image_container img {
+        width: 100%;
+        height: auto ;
+    }
+    .text_slider {
+    
+    font-size: 43px;    
+    top: 63px;
+}    
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {	
+	.left_container {
+		overflow: auto;
+	}
+	
+	.bottom_container {
+    height: 360px;    
+    top: -3%;
+}
+.pop_form {   
+    
+    font-size: 14px;
+    height: 77%;
+   
+}
+.text_slider {    
+    font-size: 28px;
+    
+}
+option {
+    
+    font-size: 27px;
+    
+}
+
+    }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {	
+	.text_slider {    
+    top: 55px;
+    
+}
+.next_button{
+	right: 15%;
+}
+.prev_button{
+	left: 15%;
+}
+.top_links a {
+    margin: 0 2px;
+}
+.logo {
+    
+    font-size: 20px;    
+    padding: 7px 0;
+    
+}
+.pop_form input{
+	
+    line-height: 30px;
+    
+	}
+	.pop_form select {	
+    
+    height: 30px;
+   
+}
+.bottom_container {
+    height: 290px;
+    
+}
+h3 {    
+    font-size: 20px;
+    margin: 25px 0;
+}
+.pop_form {
+    
+    height: 63%;
+}
+.image_container img {
+		
+		height: 250px; ;
+	}
+    .slider_buttons {
+    
+    height: 30px;    
+    width: 60px;
+}
+    
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.logo {
+    
+    font-size: 15px;    
+    padding: 7px 0;
+    }   
+.top_links a {
+    margin: 0;
+}
+.pop_form {
+    font-size: 14px;
+    height: 62%;
+}
+.text_slider {    
+    font-size: 20px;
+    
+}
+
+.owl-pagination {    
+    top: 85%;
+    
+}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .owl-item img {     
+   min-height: 200px;
+}
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+     .owl-item img {    
+    
+   min-height: 250px;
+
+
+}
+.logo {
+    min-width: 100%;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .owl-item img {    
+    
+   min-height: 250px;
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+	
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
