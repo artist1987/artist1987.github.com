@@ -45,7 +45,7 @@ body {
 .left_banner {  
     position: absolute; 
     background-color: #2a2a2a;
-    background-image: url("../img/logo.png");
+    
     background-position: center top 110px;
     background-repeat: no-repeat;
     background-size: 45% auto;
@@ -87,7 +87,7 @@ body {
     max-width: 100%;
     position: absolute;
     text-align: center;
-    top: 315px;
+    top: 250px;
     }
 
 
