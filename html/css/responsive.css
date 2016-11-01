@@ -1,0 +1,50 @@
+@media (min-width: 544px){
+	.header-center {
+		padding-top: 6%;
+	}	
+	.block3-right-text {
+		display: block;
+	}
+	.block6 input, .block6 input:focus,
+	.block6 textarea, .block6 textarea:focus,
+	.block6-form-btn, label.file_upload > mark {
+		font-size: 36px;
+	}
+}
+@media (min-width: 768px){	
+	.header-left {
+		padding-top: 153px;
+	}
+	.header-menu > li {
+		display: list-item;
+	}
+	.header-center {
+		padding-top: 61px;
+	}
+	.block3 {
+		background-image:
+			linear-gradient(to right, #ee4577 0%, #ee4577 50%, #f5a0b9 50%,  #f5a0b9 100%);
+	}
+}
+@media (min-width: 992px){	
+}
+@media (min-width: 1200px){
+	.block3-right-text {
+		margin-left: 100px;
+		white-space: nowrap;
+		text-align: left;
+	}
+	
+}
+
+
+
+
+@media only screen and ( max-width: 500px ){  /* example */
+    .file_upload > div{
+        display: none
+    }
+    .file_upload > button{
+        width: 100%
+    }
+}
